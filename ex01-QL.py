@@ -29,5 +29,5 @@ aceleracaoGravidade = 9.8
 
 while tempo <= tempoTotal:
     altura = alturaInicial - 0.5 * aceleracaoGravidade * tempo**2
-    print("Tempo:", tempo, "s - Altura:", altura, "m")
+    print(f"Tempo: {tempo} s - Altura: {altura} m")
     tempo += 1

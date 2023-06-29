@@ -38,6 +38,5 @@ velocidadeInicial_y = velocidadeInicial * math.sin(anguloRad)
 while tempo <= tempoTotal:
     posicao_x = velocidadeInicial_x * tempo
     posicao_y = velocidadeInicial_y * tempo - 0.5 * aceleracaoGravidade * tempo**2
-    #print("Tempo:", tempo, "s - Posição (x, y):", posicao_x, ",", posicao_y)
     print(f"Tempo: {tempo} s - Posição (x, y): {posicao_x}, {posicao_y}")
     tempo += 1

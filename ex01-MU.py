@@ -31,5 +31,5 @@ velocidade = float(input("Digite a velocidade: "))
 # processamento
 while tempo <= tempoTotal:
     posicao = posicaoInicial + velocidade * tempo
-    print("Tempo:", tempo, "s - Posição:", posicao, "m")
+    print(f"Tempo: {tempo} s - Posição: {posicao} m")
     tempo += 1

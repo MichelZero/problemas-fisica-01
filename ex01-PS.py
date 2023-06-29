@@ -22,4 +22,5 @@ comprimento = float(input("Digite o comprimento do pêndulo: "))
 aceleracaoGravidade = 9.8
 
 periodo = 2 * math.pi * math.sqrt(comprimento / aceleracaoGravidade)
-print("O período de oscilação é:", periodo, "s")
+
+print(f"O período de oscilação é: {periodo} s")
