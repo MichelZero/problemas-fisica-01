@@ -5,7 +5,7 @@
 
 # fazer o programa usando o while.
 
-# Exercício 3: Lançamento Oblíquo
+# Exercício 1: Lançamento Oblíquo
 # Escreva um programa que calcule a trajetória de um objeto lançado 
 # obliquamente, considerando o ângulo de lançamento, a velocidade 
 # inicial e a aceleração da gravidade. O programa deve solicitar 
